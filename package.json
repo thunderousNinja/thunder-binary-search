@@ -1,0 +1,29 @@
+{
+  "name": "thunder-binary-search",
+  "version": "0.0.3",
+  "description": "binary search function",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec",
+    "compile": "./node_modules/.bin/babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "binary",
+    "search",
+    "algorithms"
+  ],
+  "author": "jonathan garcia",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.13.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.13.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.1"
+  }
+}
