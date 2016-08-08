@@ -1,5 +1,3 @@
-import 'babel-polyfill';
-
 export default function binarySearch(arr, sort) {
   if (!sort) {
     throw new Error('Sort function missing.');
